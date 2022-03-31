@@ -1,0 +1,228 @@
+body {
+  background-color: #e5e5e5;
+}
+.elipse1 {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: 873px;
+  top: 187px;
+
+  background: #e29014;
+  border-radius: 100%;
+}
+.elipse2 {
+  position: absolute;
+  width: 286px;
+  height: 286px;
+  left: 942px;
+  top: 329px;
+  border-radius: 100%;
+  background: #555555;
+}
+
+.elipse3 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 140px;
+  top: 580px;
+  background: #e29014;
+  border-radius: 20px;
+}
+.elipse4 {
+  position: absolute;
+  width: 128px;
+  height: 40px;
+  left: 272px;
+  top: 561px;
+
+  border: 1px solid #e29014;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+h1 span {
+  position: absolute;
+  width: 57px;
+  height: 19px;
+  left: 162px;
+  top: 589px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #f1f1f1;
+}
+h2 span {
+  position: absolute;
+  width: 96px;
+  height: 19px;
+  left: 288px;
+  top: 590px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #e29014;
+}
+.intro {
+  position: absolute;
+  width: 359px;
+  height: 64px;
+  left: 137px;
+  top: 237px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 64px;
+
+  color: #707070;
+}
+.name {
+  position: absolute;
+  width: 497px;
+  height: 59px;
+  left: 138px;
+  top: 307px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+
+  color: #e29014;
+}
+
+nav li {
+  display: inline-block;
+}
+nav .one {
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 605px;
+  top: 42px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #707070;
+}
+nav .two {
+  position: absolute;
+  width: 89px;
+  height: 19px;
+  left: 701px;
+  top: 42px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #707070;
+}
+nav .Home {
+  position: absolute;
+  width: 43px;
+  height: 19px;
+  left: 140px;
+  top: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #e29014;
+}
+nav span {
+  position: absolute;
+  width: 83px;
+  height: 19px;
+  left: 1136px;
+  top: 42px;
+  color: #f1f1f1;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+nav .rectangle {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 1128px;
+  top: 32px;
+  background: #e29014;
+  border-radius: 20px;
+  color: #e29014;
+}
+.profile {
+  position: absolute;
+  width: 498px;
+  height: 57px;
+  left: 139px;
+  top: 398px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #707070;
+}
+
+.toproject {
+  position: absolute;
+  width: 88px;
+  height: 19px;
+  left: 432px;
+  top: 590px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #e29014;
+}
+.toproject1 {
+  position: absolute;
+  width: 88px;
+  height: 19px;
+  left: 530px;
+  top: 590px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #e29014;
+}
