@@ -11,7 +11,8 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"
     />
     <title>Personal Portfolio</title>
   </head>
@@ -20,21 +21,16 @@
     <nav>
       <ul>
         <a href="./index.html"> <li class="Home">Home</li></a>
-        <li class="one">About Me</li>
-        <li class="two">My Services</li>
-        <a href="https://google.com" target="_blank"
-          ><li id="Contact" class="rectangle"></li
+        <li><a class="one" href="#">About Me</a></li>
+        <li><a class="two" href="#"> My Services </a></li>
+        <li><a class="rectangle" href="https://google.com" target="_blank"
+          >Contact Me</li
         ></a>
-        <li>
-          <a href="https://google.com" target="_blank"
-            ><span>Contact Me</span></a
-          >
-        </li>
       </ul>
     </nav>
     <!-- Name begin -->
-    <div>
-      <h1 class="intro">Hi, my name is</h1>
+    <div class="parent">
+      <h2 class="intro">Hi, my name is</h2>
       <h2 class="name">Gyateng O. Emmanuel</h2>
       <p class="profile">
         I have always had this dream to become a more relevant person when it
@@ -43,25 +39,130 @@
         Engineering. I have developed the skills of coding in more than three
         programming languages. I have very good analytics and modeling skill
         set. I am enthusiastic to get projects that will help me develop my
-        skill sets
+        skill sets.
       </p>
-      <h1 class="elipse1"></h1>
-      <h1 class="elipse2"></h1>
-      <a class="elipse3" href="https://google.com"></a>
-      <a href="https://google.com"
-        ><h1><span>Hire me</span></h1></a
+      <div class="elipse1"></div>
+      <div class="elipse2"></div>
+      <img class="image" src="./images/Untitled-1.png" alt="Gyateng's Image" />
+
+      <a class="Hire" href="https://google.com"
+        >Hire me</a
       >
-      <h1 class="elipse4"></h1>
-      <a
+    
+      <a class="downloadCV"
         href="./documents/Gyateng Emmanuel Okyere's CV.pdf"
         download
         target="_blank"
-        ><h2><span>Download CV</span></h2></a
+        >Download CV</a
       >
-      <a class="toproject" href="https://google.com"> See projects</a>
-      <a class="toproject1" href="https://google.com"
-        ><i class="fa-regular fa-arrow-right"></i
+      <a class="toproject" href="#"> See projects<span><i class="fa fa-arrow-right" aria-hidden="true"></span></i
       ></a>
+    </div>
+    <div>
+      <a
+        class="socialLink"
+        href="https://www.linkedin.com/in/emmanuel-gyateng-b90682154"
+        target="_blank"
+        ><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i
+      ></a>
+      <a
+        class="socialGit"
+        href="https://github.com/Emmanuel-Okyere"
+        target="_blank"
+        ><i class="fa fa-github fa-lg" aria-hidden="true"></i
+      ></a>
+    </div>
+    <div class="projects">
+      <h2 class="recent">Recent Project</h2>
+      <h2 class="recentT">
+        Smart Drip Irrigation System Using Internet of Things
+      </h2>
+      <img
+        class="projectImage"
+        src="./images/iot in agriculture.jpg"
+        alt="iOT image"
+      />
+      <p class="projectSummary">
+        Irrigation systems are becoming more important owing to the increase in
+        human population, global warming, and food demand. This project designs
+        and implement a drip irrigation system for tomato farming and reduce
+        water wastage during irrigation and increase tomato yields in all
+        seasons. An internet of things- based smart drip irrigation system using
+        a soil moisture sensor and actuators, is designed to make water drip
+        directly onto the roots of tomato plants when moisture level goes beyond
+        the set threshold. Engineering system development lifecycle and
+        waterfall model design methodologies have been deployed in the
+        development paradigm. Using Arduino integration development environment
+        Proteus design suite, a working prototype of this project is designed. A
+        Wi-Fi module was used a node to handle computations and process sensor
+        data.
+      </p>
+      <a class="view" href="https://google.com" target="_blank">View</a>
+    </div>
+    <div class="choosing">
+      <h1 class="whychoose">
+        Why choose me? 
+      </h1>
+      <div class="text">
+        </div>
+        <div class="con">
+      <p class="content">
+          There are many variations of passages of Lorem Ipsum available, but 
+          the majority have suffered alteration in some form, by injected humour, or 
+          randomised words which don't look even slightly believable. If you are going 
+          to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+          embarrassing hidden in the middle of text. All the Lorem Ipsum generators
+          on the Internet tend .
+          There are many variations of passages of Lorem Ipsum available, but the majority have
+          suffered alteration in some form, by injected humour, or randomised words which 
+          don't look even slightly believable. If you are going to use a passage of Lorem 
+          Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle
+          of text. All the Lorem Ipsum generators on the Internet.
+      </p>
+      </div>
+      <div>
+        <h2 class="education">
+          Education Background
+        </h2>
+        <h2 class="certifications">
+          Certifications and Achievements
+        </h2>
+        <h2 class="experience">
+          Working Experience
+        </h2>
+        <div class="line1"></div>
+        <h3 class="university">University Of Ghana</h3>
+        <p class="degree">Bsc. Computer Engineering (2017 - 2021)</p>
+        <h3 class="shs">Methodist Senior High School</h3>
+        <p class="wassce">General Science, WASSCE (2013-2016)</p>
+        <h3 class="jhs">Maccarthy Hill JHS</h3>
+        <p class="bece">B.E.C.E (2011- 2013)</p>
+        <div class="line2"></div>
+        <h3 class="datascience">Data Scientist Career Path</h3>
+        <p class="cert1">Codecademy (Dec 2021) - No Expiry</p>
+        <h3 class="deeplearning">Deep Learning Skill Path</h3>
+        <p class="cert2">Codecademy (Feb 2022) - No Expiry</p>
+        <h3 class="machine">Machine Learning Skill Path</h3>
+        <p class="cert3">Codecademy (Jan 2022) - No Expiry... <a href="https://google.com" target="_blank"><span>See more</span></a></p>
+        <div class="line3"></div>
+        <h3 class="amalitech">Amalitech Ghana Limited</h3>
+        <p class="role1">DIP Associate (Oct 2021 - to date)</p>
+        <h3 class="ugcs">University Of Ghana Computing Systems</h3>
+        <p class="role2">Network Assistant Intern (Aug 2020-June-2021)</p>
+        <h3 class="gacl">Ghana Airport Company Limited</h3>
+        <p class="role3">I.T Support Intern (June 2018 -September 2019)</p>
+        <div class="elipse3"></div>
+        <div class="elipse4"></div>
+        <div class="elipse5"></div>
+        <div class="elipse6"></div>
+        <div class="elipse7"></div>
+        <div class="elipse8"></div>
+        <div class="elipse9"></div>
+        <div class="elipse10"></div>
+        <div class="elipse11"></div>
+      </div>
+    </div>
+    <div class="footer">
     </div>
   </body>
 </html>
