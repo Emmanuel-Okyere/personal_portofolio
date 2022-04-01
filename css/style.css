@@ -79,9 +79,7 @@ body {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
-.image:hover{
 
-} 
 .intro {
   margin-top: 0;
   position: absolute;
@@ -466,6 +464,9 @@ nav .rectangle {
   
   
   color: #707070;
+}
+.university:hover ~ .ellipse3{
+  background-color: #000000;
 }
 .degree{
   position: absolute;
