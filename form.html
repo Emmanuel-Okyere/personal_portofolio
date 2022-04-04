@@ -5,11 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/forms.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"
+    />
 </head>
 <body>
-    <form action="post" netlify>
-        <input type="text" name="Name">Name</input>
-        <input type="email" name="Email">Email</input>
+    <nav>
+      <ul>
+        <a href="./index.html"> <li class="Home">Home</li></a>
+        <li><a class="one" href="#">About Me</a></li>
+        <li><a class="two" href="#"> Hire me </a></li>
+        <li><a class="three" href="#"> My Services </a></li>
+        <li><a class="rectangle" href="mailto:gyateng94@gmail.com?cc=eogyateng@st.ug.edu.gh&subject=Getting In Touch&body=Dear Emmanuel Okyere Gyateng," target="_blank"
+          >Contact Me</li
+        ></a>
+      </ul>
+    </nav>
+    <form class="formclass" id="forms" action="post" netlify>
+        <div class="hire">
+            <h1>Hire Me</h1>
+        </div>
+        <label class="fname" for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
+        <label class="lname" for="lname">Other Names</label>
+        <input type="text" name="lname" id="lname" placeholder="Enter your other name(s)" required>
+        <label class = "email" for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <label class ="mobile"for="mobile">Mobile Number</label>
+        <input type="tel" name="mobile" id="mobile" placeholder="Eg. 055 XXX XXXX" required>
+        <label class="job" for="job">Job Description</label>
+        <textarea id="job" rows="4" cols="50" name="job" form="forms"></textarea>
         <button type="submit">Submit</button>
     </form>
 </body>

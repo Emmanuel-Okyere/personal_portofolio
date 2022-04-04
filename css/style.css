@@ -10,10 +10,69 @@ body {
   
   background: #e5e5e5;
 }
+.eps1{
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 85.12%;
+  right: 13.86%;
+  top: 190px;
+  bottom: 88.22%;
+  border-radius: 100%;
+  background: #E29014;
+}
+.eps2{
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 90.12%;
+  right: 13.86%;
+  top: 450px;
+  bottom: 88.22%;
+  border-radius: 100%;
+  background: #F1F1F1;
+  z-index: 45;
+}
+.eps3{
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 57.12%;
+  right: 13.86%;
+  top: 370px;
+  bottom: 88.22%;
+  border-radius: 100%;
+  background: #555555;
+  z-index: 45;
+}
+.eps4{
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 63.12%;
+  right: 13.86%;
+  top: 530px;
+  bottom: 88.22%;
+  border-radius: 100%;
+  background: #E29014;
+  z-index: 45;
+}
+.eps5{
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 74.12%;
+  right: 13.86%;
+  top: 630px;
+  bottom: 88.22%;
+  border-radius: 100%;
+  background: #E29014;
+  z-index: 45;
+}
 .elipse1 {
   position: absolute;
-  width: 260px;
-  height: 260px;
+  width: 320px;
+  height: 320px;
   left: 873px;
   top: 187px;
 
@@ -30,8 +89,8 @@ body {
 }
 .elipse2 {
   position: absolute;
-  width: 286px;
-  height: 286px;
+  width: 320px;
+  height: 320px;
   left: 942px;
   top: 329px;
   border-radius: 100%;
@@ -100,7 +159,7 @@ body {
   position: absolute;
   width: auto;
   height: 370px;
-  left: 510px;
+  left: 790px;
   top: 187px;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -141,6 +200,10 @@ body {
   color: #e29014;
 }
 
+nav{
+  position: sticky;
+  z-index: 48;
+}
 nav li {
   display: inline-block;
 }
@@ -148,7 +211,7 @@ nav .one {
   position: absolute;
   width: 70px;
   height: 19px;
-  left: 605px;
+  left: 515px;
   top: 42px;
   text-decoration: none;
   font-family: "Roboto";
@@ -164,7 +227,23 @@ nav .two {
   position: absolute;
   width: 89px;
   height: 19px;
-  left: 701px;
+  left: 617px;
+  top: 42px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #707070;
+}
+nav .three {
+  position: absolute;
+  width: 89px;
+  height: 19px;
+  left: 706px;
   top: 42px;
   text-decoration: none;
   font-family: "Roboto";
@@ -907,6 +986,21 @@ nav .rectangle:hover{
   height: 50px;
   background: #e5e5e5;
 }
+.last{
+  position: relative;
+}
+.first{
+  background-color: #000000 ;
+  /* position: relative; */
+
+}
+.second{
+  background-color: #000000;
+}
+.third{
+  background-color: #000000;
+}
+
 
 @media only screen  and (min-width: 1728px){
   body{
