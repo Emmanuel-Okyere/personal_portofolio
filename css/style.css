@@ -566,7 +566,7 @@ nav .rectangle:hover{
 /* left  */
 .line1 {
   position: absolute;
-  height: 154px;
+  height: 150px;
   left: 155px;
   top: 390px;
   border: 1px solid #C4C4C4;
@@ -699,7 +699,7 @@ nav .rectangle:hover{
 /* middle */
 .line2 {
   position: absolute;
-  height: 154px;
+  height: 150px;
   left: 516px;
   top: 390px;
   border: 1px solid #C4C4C4;
@@ -843,7 +843,7 @@ nav .rectangle:hover{
 /* Right */
 .line3 {
   position: absolute;
-  height: 154px;
+  height: 150px;
   left: 966px;
   top: 390px;
   border: 1px solid #C4C4C4;

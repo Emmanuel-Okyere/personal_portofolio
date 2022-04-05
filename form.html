@@ -7,6 +7,8 @@
     <title>Document</title>
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/forms.css">
+    <link rel="stylesheet" href="./css/particle.css"/>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
@@ -18,6 +20,9 @@
     />
 </head>
 <body>
+  <!-- particles.js container -->
+    <div id="particles-js"></div>
+
     <nav>
       <ul>
         <a href="./index.html"> <li class="Home">Home</li></a>
@@ -29,6 +34,7 @@
         ></a>
       </ul>
     </nav>
+    
     <form onsubmit="sendForm()" class="formclass" id="forms" action="./index.html" netlify data-netlify="true" method="POST">
         <div class="hire">
             <h1>Hire Me</h1>
@@ -46,5 +52,9 @@
         <button type="submit">Submit</button>
     </form>
     <script src="./js/success.js"></script> 
+        <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="./js/particle.js"></script>
 </body>
 </html>
