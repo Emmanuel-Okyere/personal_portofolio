@@ -19,10 +19,8 @@ body {
   width: 31px;
   height: 31px;
   position: absolute;
-  left: 85.12%;
-  right: 13.86%;
+  left: 1193px;
   top: 190px;
-  bottom: 88.22%;
   border-radius: 100%;
   background: #E29014;
 }
@@ -30,10 +28,8 @@ body {
   width: 31px;
   height: 31px;
   position: absolute;
-  left: 90.12%;
-  right: 13.86%;
+  left: 1192px;
   top: 450px;
-  bottom: 88.22%;
   border-radius: 100%;
   background: #F1F1F1;
   z-index: 45;
@@ -42,10 +38,8 @@ body {
   width: 31px;
   height: 31px;
   position: absolute;
-  left: 57.12%;
-  right: 13.86%;
+  left: 722px;
   top: 370px;
-  bottom: 88.22%;
   border-radius: 100%;
   background: #555555;
   z-index: 45;
@@ -54,10 +48,8 @@ body {
   width: 31px;
   height: 31px;
   position: absolute;
-  left: 63.12%;
-  right: 13.86%;
+  left: 800px;
   top: 530px;
-  bottom: 88.22%;
   border-radius: 100%;
   background: #E29014;
   z-index: 45;
@@ -66,10 +58,8 @@ body {
   width: 31px;
   height: 31px;
   position: absolute;
-  left: 74.12%;
-  right: 13.86%;
+  left: 993px;
   top: 630px;
-  bottom: 88.22%;
   border-radius: 100%;
   background: #E29014;
   z-index: 45;
@@ -208,9 +198,10 @@ body {
 nav{
   position: fixed;
   z-index: 48;
-  width: 100%;
+  width: 1348px;
   height: 80px;
   border: 0;
+  top: 0;
   background-color: #e5e5e5;
   
 }
@@ -320,7 +311,7 @@ nav .rectangle:hover{
 }
 .projects{
   position: absolute;
-  width: 100%;
+  width: 1348px;
   height: 509px;
   left: 0px;
   top: 824px;
@@ -410,7 +401,7 @@ nav .rectangle:hover{
 }
 .toproject {
   position: absolute;
-  width: auto;
+  width: 125px;
   height: 19px;
   left: 432px;
   top: 540px;
@@ -530,7 +521,7 @@ nav .rectangle:hover{
 
 .education{
   position: absolute;
-  width: auto;
+  width: 219px;
   height: 23px;
   left: 139px;
   top: 300px;
@@ -544,7 +535,7 @@ nav .rectangle:hover{
 }
 .certifications{
   position: absolute;
-  width: auto;
+  width: 294px;
   height: 23px;
   left: 500px;
   top: 300px;
@@ -558,7 +549,7 @@ nav .rectangle:hover{
 }
 .experience{
   position: absolute;
-  width: auto;
+  width: 179px;
   height: 23px;
   left: 950px;
   top: 300px;
@@ -609,6 +600,7 @@ nav .rectangle:hover{
 }
 .university{
   position: absolute;
+  width: 160px;
   left:186px;
   top: 390px;
   margin-top: 0;
@@ -627,6 +619,7 @@ nav .rectangle:hover{
 }
 .degree{
   position: absolute;
+  width: 219.047px;
   left:186px;
   top: 409px;
   margin-top: 0;
@@ -645,6 +638,7 @@ nav .rectangle:hover{
 .shs{
   position: absolute;
   left:186px;
+  width: 214.594px;
   top: 452px;
   margin-top: 0;
   font-family: 'Roboto';
@@ -659,6 +653,7 @@ nav .rectangle:hover{
 }
 .wassce{
   position: absolute;
+  width: 206.562px;
   left:186px;
   top: 471px;
   margin-top: 0;
@@ -676,6 +671,7 @@ nav .rectangle:hover{
 }
 .jhs{
   position: absolute;
+  width: 138.562px;
   left:186px;
   top: 514px;
   margin-top: 0;
@@ -691,6 +687,7 @@ nav .rectangle:hover{
 }
 .bece{
   position: absolute;
+  width: 109.828px;
   left:186px;
   top: 531px;
   margin-top: 0;
@@ -745,6 +742,7 @@ nav .rectangle:hover{
 }
 
 .datascience {
+  width: 189.266px;
   position: absolute;
   left: 547px;
   top: 390px;
@@ -761,6 +759,7 @@ nav .rectangle:hover{
 }
 
 .cert1 {
+  width: 191.469px;
   position: absolute;
   left: 548px;
   top: 409px;
@@ -779,6 +778,7 @@ nav .rectangle:hover{
 }
 
 .deeplearning {
+  width: 175.969px;
   position: absolute;
   left: 547px;
   top: 452px;
@@ -795,6 +795,7 @@ nav .rectangle:hover{
 }
 
 .cert2 {
+  width: 190.562px;
   position: absolute;
   left: 548px;
   top: 471px;
@@ -813,6 +814,7 @@ nav .rectangle:hover{
 }
 
 .machine {
+  width: 201px;
   position: absolute;
   left: 547px;
   top: 514px;
@@ -830,6 +832,7 @@ nav .rectangle:hover{
 
 .cert3 {
   position: absolute;
+  width: 270px;
   left: 548px;
   top: 531px;
   margin-top: 0;
@@ -889,6 +892,7 @@ nav .rectangle:hover{
 }
 
 .amalitech {
+  width: 185px;
   position: absolute;
   left: 998px;
   top: 390px;
@@ -905,6 +909,7 @@ nav .rectangle:hover{
 }
 
 .role1 {
+  width: 182px;
   position: absolute;
   left: 998px;
   top: 409px;
@@ -923,6 +928,7 @@ nav .rectangle:hover{
 }
 
 .ugcs {
+  width: 300px;
   position: absolute;
   left: 998px;
   top: 452px;
@@ -939,6 +945,7 @@ nav .rectangle:hover{
 }
 
 .role2 {
+  width: 260px;
   position: absolute;
   left: 998px;
   top: 471px;
@@ -957,6 +964,7 @@ nav .rectangle:hover{
 }
 
 .gacl {
+  width: 235px;
   position: absolute;
   left: 998px;
   top: 514px;
@@ -973,6 +981,8 @@ nav .rectangle:hover{
 }
 
 .role3 {
+
+  width: 260px;
   position: absolute;
   left: 998px;
   top: 531px;
@@ -1012,7 +1022,7 @@ nav .rectangle:hover{
 }
 
 
-@media only screen  and (min-width: 1728px){
+@media only screen  and (min-width: 1824px){
   body{
     position: absolute;
     margin: 0 auto;
@@ -1026,4 +1036,14 @@ nav .rectangle:hover{
  .choosing{
    top:1356px;
  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
 }
