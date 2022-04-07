@@ -323,7 +323,7 @@ nav .rectangle:hover{
   width: 133px;
   height: 23px;
   left: 139px;
-  top: 5px;
+  top: 20px;
   
   font-family: 'Roboto';
   font-style: normal;
@@ -368,6 +368,7 @@ nav .rectangle:hover{
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
+  padding: 15px;
   /* or 200% */
   
   
@@ -503,6 +504,7 @@ nav .rectangle:hover{
 }
 
 .content{
+  padding: 13px;
   position: absolute;
   width: 1060px;
   height: 186px;

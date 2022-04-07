@@ -173,14 +173,14 @@ nav .rectangle:hover {
 }
 .content1 h1{
     position: absolute;
-    width: 174px;
+    width: 250px;
     height: 21px;
     left: 529px;
     top: 159px;
     
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
     line-height: 21px;
     /* identical to box height */
@@ -231,7 +231,7 @@ nav .rectangle:hover {
     
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
     line-height: 21px;
     /* identical to box height */
@@ -282,7 +282,7 @@ nav .rectangle:hover {
     
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
     line-height: 21px;
     /* identical to box height */
@@ -297,6 +297,159 @@ nav .rectangle:hover {
     height: 201px;
     left: 532px;
     top: 737px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    /* or 194% */
+    
+    
+    color: #555555;
+}
+.content3 .line3{
+    position: absolute;
+    width: 1091px;
+    height: 0px;
+    left: 145px;
+    top: 950px;
+    
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+.content4 img{
+    position: absolute;
+    width: 352px;
+    height: 237px;
+    left: 878px;
+    top: 975px;
+}
+.content4 h1{
+    position: absolute;
+    width: auto;
+    height: 21px;
+    left: 140px;
+    top: 975px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #333333;
+}
+.content4 .detail4{
+    position: absolute;
+    width: 698px;
+    height: 201px;
+    left: 140px;
+    top: 1010px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    /* or 194% */
+    
+    
+    color: #555555;
+}
+.content4 .line4{
+    position: absolute;
+    width: 1091px;
+    height: 0px;
+    left: 145px;
+    top: 1220px;
+    
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+.content5 img{
+    position: absolute;
+    width: 352px;
+    height: 237px;
+    left: 139px;
+    top: 1235px;
+}
+.content5 h1{
+    position: absolute;
+    width: auto;
+    height: 21px;
+    left: 532px;
+    top: 1235px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #333333;
+}
+.content5 .detail5{
+    position: absolute;
+    width: 698px;
+    height: 201px;
+    left: 529px;
+    top: 1270px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    /* or 194% */
+    
+    
+    color: #555555;
+}
+.content5 .line5{
+    position: absolute;
+    width: 1091px;
+    height: 0px;
+    left: 145px;
+    top: 1490px;
+    
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+.content6 img{
+    position: absolute;
+    width: 352px;
+    height: 237px;
+    left: 878px;
+    top: 1520px;
+}
+.content6 h1{
+    position: absolute;
+    width: auto;
+    height: 21px;
+    left: 140px;
+    top: 1520px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #333333;
+}
+.content6 .detail6{
+    position: absolute;
+    width: 698px;
+    height: 201px;
+    left: 140px;
+    top: 1560px;
     
     font-family: 'Roboto';
     font-style: normal;

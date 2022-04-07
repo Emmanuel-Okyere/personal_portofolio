@@ -362,7 +362,7 @@ button:hover{
         right: 15%;
     }
     .formclass{
-            /* position: absolute; */
+            position: absolute;
             width: 568px;
             height: 558px;
             left: 405px;
