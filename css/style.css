@@ -602,7 +602,7 @@ nav .rectangle:hover{
 }
 .university{
   position: absolute;
-  width: 160px;
+  width: 200px;
   left:186px;
   top: 390px;
   margin-top: 0;
@@ -621,7 +621,7 @@ nav .rectangle:hover{
 }
 .degree{
   position: absolute;
-  width: 219.047px;
+  width: 250.047px;
   left:186px;
   top: 409px;
   margin-top: 0;
@@ -640,7 +640,7 @@ nav .rectangle:hover{
 .shs{
   position: absolute;
   left:186px;
-  width: 214.594px;
+  width: 250.594px;
   top: 452px;
   margin-top: 0;
   font-family: 'Roboto';
@@ -655,7 +655,7 @@ nav .rectangle:hover{
 }
 .wassce{
   position: absolute;
-  width: 206.562px;
+  width: 250.562px;
   left:186px;
   top: 471px;
   margin-top: 0;
@@ -673,7 +673,7 @@ nav .rectangle:hover{
 }
 .jhs{
   position: absolute;
-  width: 138.562px;
+  width: 200.562px;
   left:186px;
   top: 514px;
   margin-top: 0;
@@ -689,7 +689,7 @@ nav .rectangle:hover{
 }
 .bece{
   position: absolute;
-  width: 109.828px;
+  width: 200.828px;
   left:186px;
   top: 531px;
   margin-top: 0;
@@ -744,7 +744,7 @@ nav .rectangle:hover{
 }
 
 .datascience {
-  width: 189.266px;
+  width: 250.266px;
   position: absolute;
   left: 547px;
   top: 390px;
@@ -761,7 +761,7 @@ nav .rectangle:hover{
 }
 
 .cert1 {
-  width: 191.469px;
+  width: 250.469px;
   position: absolute;
   left: 548px;
   top: 409px;
@@ -780,7 +780,7 @@ nav .rectangle:hover{
 }
 
 .deeplearning {
-  width: 175.969px;
+  width: 250.969px;
   position: absolute;
   left: 547px;
   top: 452px;
@@ -797,7 +797,7 @@ nav .rectangle:hover{
 }
 
 .cert2 {
-  width: 190.562px;
+  width: 250.562px;
   position: absolute;
   left: 548px;
   top: 471px;
@@ -816,7 +816,7 @@ nav .rectangle:hover{
 }
 
 .machine {
-  width: 201px;
+  width: 250px;
   position: absolute;
   left: 547px;
   top: 514px;
@@ -834,7 +834,7 @@ nav .rectangle:hover{
 
 .cert3 {
   position: absolute;
-  width: 270px;
+  width: 300px;
   left: 548px;
   top: 531px;
   margin-top: 0;
@@ -894,7 +894,7 @@ nav .rectangle:hover{
 }
 
 .amalitech {
-  width: 185px;
+  width: 250px;
   position: absolute;
   left: 998px;
   top: 390px;
@@ -911,7 +911,7 @@ nav .rectangle:hover{
 }
 
 .role1 {
-  width: 182px;
+  width: 250px;
   position: absolute;
   left: 998px;
   top: 409px;
@@ -930,7 +930,7 @@ nav .rectangle:hover{
 }
 
 .ugcs {
-  width: 300px;
+  width: 350px;
   position: absolute;
   left: 998px;
   top: 452px;
@@ -947,7 +947,7 @@ nav .rectangle:hover{
 }
 
 .role2 {
-  width: 260px;
+  width: 300px;
   position: absolute;
   left: 998px;
   top: 471px;
@@ -966,7 +966,7 @@ nav .rectangle:hover{
 }
 
 .gacl {
-  width: 235px;
+  width: 300px;
   position: absolute;
   left: 998px;
   top: 514px;
@@ -984,7 +984,7 @@ nav .rectangle:hover{
 
 .role3 {
 
-  width: 260px;
+  width: 300px;
   position: absolute;
   left: 998px;
   top: 531px;
